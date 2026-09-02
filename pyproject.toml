@@ -2,7 +2,7 @@
 name = "airflow-dbt-python"
 version = "3.6.0"
 description = "A collection of Airflow operators, hooks, and utilities to execute dbt commands"
-authors = [{ name = "All right", email = "tomas@tomasfarias.dev" }]
+authors = [{ name = "All right", email = "#" }]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.10,<3.14"
