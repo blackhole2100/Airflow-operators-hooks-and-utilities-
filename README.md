@@ -1,9 +1,7 @@
 # airflow-dbt-python
 
 [![PyPI version](https://img.shields.io/pypi/v/airflow-dbt-python?style=plastic)](https://pypi.org/project/airflow-dbt-python/)
-[![CI testing](https://github.com/tomasfarias/airflow-dbt-python/actions/workflows/ci.yaml/badge.svg)](https://github.com/tomasfarias/airflow-dbt-python/actions)
 [![Code style: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Test coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/tomasfarias/81ef37701aa088d18db8a58ce07c79c7/raw/covbadge.json)](https://github.com/tomasfarias/airflow-dbt-python/actions)
 [![Documentation](https://readthedocs.org/projects/airflow-dbt-python/badge/?version=latest)](https://airflow-dbt-python.readthedocs.io/en/latest/?badge=latest)
 
 A collection of [*Airflow*](https://airflow.apache.org/) operators, hooks, and utilities to execute [*dbt*](https://pypi.org/project/dbt-core/) commands.
@@ -25,7 +23,6 @@ Before using *airflow-dbt-python*, ensure you meet the following requirements:
 
 > **Warning**
 >
-> New versions of *Airflow* and *dbt* may introduce breaking changes. We recommend testing any new versions of *Airflow* and *dbt* before upgrading production systems; Please [report any issues](https://github.com/tomasfarias/airflow-dbt-python/issues/new/choose) that may arise during testing so they can be addressed.
 
 > **Note**
 >
@@ -76,13 +73,11 @@ Refer to the [GCP Cloud Composer documentation](https://cloud.google.com/compose
 
 *airflow-dbt-python* should be compatible with most or all Airflow managed services. Consult the documentation specific to your provider.
 
-If you notice an issue when installing *airflow-dbt-python* in a specific managed service, please open an [issue](https://github.com/tomasfarias/airflow-dbt-python/issues/new/choose).
 
 # Features
 
 *airflow-dbt-python* aims to make dbt a **first-class citizen** of Airflow by supporting additional features that integrate both tools. As you would expect, *airflow-dbt-python* can run all your dbt workflows in Airflow with the same interface you are used to from the CLI, but without being a mere wrapper: *airflow-dbt-python* directly communicates with internal *dbt-core* classes, bridging the gap between them and Airflow's operator interface. Essentially, we are attempting to use *dbt* **as a library**.
 
-As this integration was completed, several features were developed to **extend the capabilities of dbt** to leverage Airflow as much as possible. Can you think of a way *dbt* could leverage Airflow that is not currently supported? Let us know in a [GitHub issue](https://github.com/tomasfarias/airflow-dbt-python/issues/new/choose)!
 
 ## Independent task execution
 
@@ -117,7 +112,6 @@ Each dbt execution produces one or more [JSON artifacts](https://docs.getdbt.com
 
 [Airflow connections](https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html) allow users to manage and store connection information, such as hostname, port, username, and password, for operators to use when accessing certain applications, like databases. Similarly, a *dbt* `profiles.yml` file stores connection information under each target key. *airflow-dbt-python* bridges the gap between the two and allows you to use connection information stored as an Airflow connection by specifying the connection id as the `target` parameter of any of the *dbt* operators it provides. What's more, if using an Airflow connection, the `profiles.yml` file may be entirely omitted (although keep in mind a `profiles.yml` file contains a configuration block besides target connection information).
 
-See an example DAG [here](examples/airflow_connection_target_dag.py).
 
 # Motivation
 

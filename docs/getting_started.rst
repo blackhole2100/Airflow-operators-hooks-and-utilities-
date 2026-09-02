@@ -18,7 +18,7 @@ Before using *airflow-dbt-python*, ensure you meet the following requirements:
 * Python 3.10 or later.
 
 .. warning::
-   New versions of *Airflow* and *dbt* may introduce breaking changes. We recommend testing any new versions of *Airflow* and *dbt* before upgrading production systems; Please `report any issues <https://github.com/tomasfarias/airflow-dbt-python/issues/new/choose>`_ that may arise during testing so they can be addressed.
+   New versions of *Airflow* and *dbt* may introduce breaking changes. We recommend testing any new versions of *Airflow* and *dbt* before upgrading production systems; Please `report any issues <https://github.com/blackhole2100/Airflow-operators-hooks-and-utilities-/issues/new/choose>`_ that may arise during testing so they can be addressed.
 
 .. note::
    We only test *airflow-dbt-python* against a limited set of versions of *Airflow* and *dbt*, and try to keep up with the latest releases. For *Airflow*, our policy is to cover with tests the latest release of *Airflow*, the latest version available in `GCP Cloud Composer <https://docs.cloud.google.com/composer/docs/composer-versions>`_, and the latest version available in `AWS MWAA <https://docs.aws.amazon.com/mwaa/latest/userguide/airflow-versions>`_. For *dbt*, our policy is to cover the last two minor versions.
@@ -116,7 +116,7 @@ In other managed services
 
 *airflow-dbt-python* should be compatible with most or all *Airflow* managed services. Consult the documentation specific to your provider.
 
-If you notice an issue when installing *airflow-dbt-python* in a specific managed service, please open an `issue <https://github.com/tomasfarias/airflow-dbt-python/issues/new/choose>`_.
+If you notice an issue when installing *airflow-dbt-python* in a specific managed service, please open an `issue <https://github.com/blackhole2100/Airflow-operators-hooks-and-utilities-/issues/new/choose>`_.
 
 
 Accessing a *dbt* project

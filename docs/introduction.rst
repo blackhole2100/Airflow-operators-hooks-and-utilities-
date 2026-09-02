@@ -17,7 +17,7 @@ We believe Airflow can **enhance** a *dbt* user's experience with several additi
 * Downloading *dbt* projects from remote storages, like `AWS S3 <https://aws.amazon.com/s3/>`_, `Google Cloud Storage <https://cloud.google.com/storage/docs>`_ or Github repositories.
 * Communicate between tasks by pushing results and artifacts to `XCom <https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/xcoms.html>`_.
 
-Can you think of another way Airflow can enhance *dbt*? Let us know in a `GitHub issue <https://github.com/tomasfarias/airflow-dbt-python/issues/new/choose>`_!
+Can you think of another way Airflow can enhance *dbt*? Let us know in a `GitHub issue <https://github.com/blackhole2100/Airflow-operators-hooks-and-utilities-/issues/new/choose>`_!
 
 Read along for a breakdown of *airflow-dbt-python*'s main features, or head over to :ref:`getting_started` to get your *dbt* workflows running in Airflow!
 
