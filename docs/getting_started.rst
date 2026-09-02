@@ -59,7 +59,7 @@ Building from source
 
 .. code-block:: shell
 
-   git clone https://github.com/tomasfarias/airflow-dbt-python.git
+   git clone https://github.com/blackhole2100/Airflow-operators-hooks-and-utilities-.git
    cd airflow-dbt-python
 
 And build with *uv*:
@@ -88,7 +88,7 @@ For example, we can start by cloning the GitHub repository:
 
 .. code-block:: shell
 
-   git clone https://github.com/tomasfarias/airflow-dbt-python.git
+   git clone https://github.com/blackhole2100/Airflow-operators-hooks-and-utilities-.git
    cd airflow-dbt-python
 
 Then building an *airflow-dbt-python* wheel using *uv*:

@@ -19,7 +19,7 @@ Clone the *airflow-dbt-python* repository:
 
 .. code-block:: shell
 
-   git clone https://github.com/tomasfarias/airflow-dbt-python.git
+   git clone https://github.com/blackhole2100/Airflow-operators-hooks-and-utilities-.git
    cd airflow-dbt-python
 
 Create a local virtual environment (if you don't want *uv* to manage it), and ensure your local development environment is in sync with *uv*:

@@ -50,7 +50,7 @@ pip install airflow-dbt-python[redshift]
 *airflow-dbt-python* can also be built from source by cloning this GitHub repository:
 
 ``` shell
-git clone https://github.com/tomasfarias/airflow-dbt-python.git
+git clone https://github.com/blackhole2100/Airflow-operators-hooks-and-utilities-.git
 cd airflow-dbt-python
 ```
 
